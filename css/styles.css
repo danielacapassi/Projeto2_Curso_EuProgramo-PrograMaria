@@ -1,91 +1,162 @@
 body{
-  text-align:center;
-  font-family: Open sans , Sans-serif;
-  background-color:white;
+  text-align:justify;
+  font-family: Verdana, Sans-serif;
+  background-image: url("/img/tijolo-fundo.jpg");
+  background-repeat: repeat;
+
   color:black;
   margin: 0;
-}
+  }
 
   h2 {
- color:black;
- font-size: 40px;
-}
+  color:black;
+  font-size: 40px;
+  text-align:center;
+  }
 
- .infancia {
- color:#04FF9F;
-}
+ .trajetoriaprofissional, 
+ .vidapessoal,
+ .foofighters, 
+ .foofightersformacao,
+ h3{
+ color:red;
+ text-align:center;
+ font-size:30px;
+ font-style: italic;
+   margin-top: 20px;
+  margin-bottom: 10px;
+ }
 
- .juventude {
- color:#FF9E9E;
-}
+ .rodape{
+  color:black;
+ text-align:center;  
+ margin-bottom: 15px;
+ }
 
- .vidaadulta {
- color:#FFE36D;
-}
-
-section{
+section {
   width:60%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
-section section{
+section section {
   width: 100%;
+  margin-top: 100px;
 }
 
-h1{
+h1 {
   font-size: 60px;
   font-weight: 300;
-  border:  4mm ridge black ;
+  border:  4mm solid black ;
   border-radius: 25% 10%;
-}
+  text-align:center;
+  margin-top: 100px;
 
-h3{
-  font-size:22px;
-  font-style: italic;
 }
 
 p{
   font-size:20px;
-  line-height:1,5;
+  line-height:1.5;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
+
 
 img{
   width: 100%;
+  height: 450px;
+  margin-top:60px;
+  }
+#beijo {
+  width: 100%;
+  height: 450px;
+  margin-top:30px;
 }
+
+
+#nate, 
+#taylor,
+#chris,
+#pat,
+#rami{
+width: 100%;
+height: 450px;
+margin-top: 90px;
+margin-bottom: 150px;
+}
+
+#beijo{
+  width: 100%;
+  height: 450px;
+   margin-top:0;
+}
+
 
 ul{
   list-style-type: none;
   line-height: 2;
   padding-left: 0;
+  text-align:center;
+  font-size:20px;
+  line-height:1.5;
 }
+
 a{
-  text-decoration: none;
- color:#99ffff;
+ text-decoration: underline;
+ color:black;
  font-size: 700;
 }
 
 .principal {
-background-color:red;
-height: 40px; 
-max-width: 60%;
-margin: 0 auto;
+background:red;
+height: 70px; 
+max-width: 100%;
+margin: 0 ;
+position: fixed;
+right: 0;
+top: 0;
+left: 0;
+padding: 1px;
+text-align:center;
 }
 
-.principal a{
-color:black;
+.principal ul{
+text-align:center;
+margin-top:1;
+margin-bottom: 1;
+padding:1;
+line-height: 1;
+font-size: 1;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif , Sans-serif;
+}
+
+.principal a {
+color:white;
 font-weight: normal;
 text-decoration:none;
+text-align:center;
 }
 
-.principal li{
+.principal li {
   display: inline-block;
-  line-height: 2;
-  margin: 0 89px;
+  line-height: 1;
+  margin: 0 40px;
+  text-align:center;
 }
 
-button{
-  background-color:#41f341;
+button {
+  background-color:beige;
   border: 1px solid transparent;
   padding: 2px 20px;
   border-radius: 3px; 
+  text-align:center;
+}
+
+form {
+  text-align:center;
+}
+
+ h4 {
+ text-align:center;
 }
